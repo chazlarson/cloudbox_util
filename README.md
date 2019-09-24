@@ -4,7 +4,7 @@ A utility script to provide simple aliases to various cloudbox functions.
 Work in progress
 
 ```
-➜ ./cb_util.sh -h
+➜ ./cb.sh -h
 Usage:
     cb -h                  Display this help message.
     cb install <package>   Install <package>.
