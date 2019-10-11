@@ -50,6 +50,20 @@ case "$subcommand" in
 
   # Parse options to the various sub commands
 
+  setup)
+    case "$SHELL" in
+	  /bin/zsh)
+        echo "You're running ZSH"
+		;;
+	  /bin/bash )
+        echo "You're running Bash"
+		;;
+	  * )
+        echo "No idea what shell you're running"
+		;;
+	esac
+    ;;
+
   certs)
     cmd=$1; shift
     case "$cmd" in
