@@ -3,8 +3,27 @@ A utility script to provide simple aliases to various cloudbox functions.
 
 Work in progress
 
+## install
+
 ```
-➜ ./cb.sh -h
+curl "https://raw.githubusercontent.com/chazlarson/cloudbox_util/master/cb.sh" > /opt/scripts/cb.sh; chmod +x /opt/scripts/cb.sh
+```
+
+## enable
+
+```
+ADD ALIAS TO SHELL
+```
+
+## update
+
+```
+curl "https://raw.githubusercontent.com/chazlarson/cloudbox_util/master/cb.sh" > /opt/scripts/cb.sh; chmod +x /opt/scripts/cb.sh
+```
+
+## running
+```
+➜ cb -h
 Usage:
     cb -h                  Display this help message.
     cb install <package>   Install <package>.
