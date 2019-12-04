@@ -11,9 +11,14 @@ curl "https://raw.githubusercontent.com/chazlarson/cloudbox_util/master/cb.sh" >
 
 ## enable
 
+One way is to add this to the end of your `.bashrc` [or `.zshrc` or whatever your shell uses]
 ```
-ADD ALIAS TO SHELL
+alias cb='/opt/scripts/cb.sh'
 ```
+Log out and back in, and now you can execute it by typing `cb` anywhere.
+
+More details and an alternative is discussed here:
+https://askubuntu.com/a/17537
 
 ## update
 
